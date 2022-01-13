@@ -1,0 +1,36 @@
+<!DOCTYPE html>
+<html lang="pt">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="style.css">
+    
+    <title>Document</title>
+</head>
+<body>
+
+    <header>
+        Calcule a quantidade exata de comida necessária para o seu churrasco!
+    </header>
+    
+    <div class="container">
+
+        <img src="./assigments/churraslogo.png" alt="">
+
+        <input id="adultos" name="adultos" type="number" placeholder="Adultos" class="quantidades">
+        <input id="crianças" name="crianças" placeholder="Crianças" type="number" class="quantidades">
+        <input id="duracao" name="duracao" placeholder="Duração (h)" type="number" class="quantidades">
+
+        <div class="botaoCalcular">
+            <button class="calcular" onclick="calcular()">Calcular</button>
+        </div>
+
+
+        <div id="resultado"></div>  
+    </div>
+    
+
+    <script src="script.js"></script>
+</body>
+</html>
