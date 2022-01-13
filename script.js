@@ -8,8 +8,6 @@ var resultado = document.getElementById("resultado");
 function calcular () {
     console.log("Calculando...");
     
-    // console.log(inputAdultos.value, inputCrianças.value, inputDuracao.value);
-
     let qtdTotalCarne = 0;
     let qtdTotalCerveja = 0;
     let qtdTotalRefri = 0;
@@ -28,7 +26,7 @@ function calcular () {
 
     resultado.innerHTML = `<p> ${qtdTotalCarne / 1000}kg de carne<p/>`
     resultado.innerHTML += `<p> ${qtdTotalCerveja / 1000} litros de cerveja<p/>`
-    resultado.innerHTML += `<p> ${qtdTotalRefri / 1000} litro de refrigerante<p/>`
+    resultado.innerHTML += `<p> ${qtdTotalRefri / 1000} litros de refrigerante<p/>`
 
 
 }
